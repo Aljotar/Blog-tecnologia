@@ -1,0 +1,845 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1bc88ff8fe.js" crossorigin="anonymous"></script>
+
+
+
+    <title>Hello, world!</title>
+</head>
+
+<body>
+
+    <header class="head ">
+        <!-- NAVBAR -->
+
+
+        <ul class="menu nav d-flex ">
+            <label class="navbar_querie btn btn-primary" for="menu" data-bs-toggle="offcanvas" href="#offcanvasExample"
+                role="button" aria-controls="offcanvasExample" style="
+    margin: 30px;
+    color: #a7afe4;
+    width: 50px;
+    height: 40px;
+    border: 3px solid;
+"> ☰ </label>
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+                aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header bg-danger">
+                    <h5 class="offcanvas-title" id="offcanvasExampleLabel"></h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body"
+                    style="background-color: #333333;">
+                    <!-- MENU    DENTRO  DEL  offcanvas  -->
+                    <div>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./nosotros/nosotros.html.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./articulos/articulos.html">Articulos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contacto/contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./registro.html">Registro</a>
+                        </li>
+                    </div>
+                </div>
+            </div>
+
+            <img class="logo" src="/imagenes/logo.jpg">
+
+
+            <div class="menu_header d-flex">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Tienda</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contacto</a>
+                </li>
+            </div>
+
+
+
+
+
+
+
+
+
+            <!-- Modal LOGIN -->
+            <div class="registro_login d-flex mt-3">
+                <button type="button" class="btn btn-rounded" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">Iniciar Sesión</button>
+
+                </button>
+
+
+                <!-- Modal -->
+            </div>
+            <div class="boton_nav">
+                <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
+                    id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Colored with scrolling</h5>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+
+                    </div>
+                    <div class="offcanvas-body">
+
+                        <div class="btn-group-vertical">
+                            <button type="button" class="btn btn-primary">Primary</button>
+                            <button type="button" class="btn btn-primary">Primary</button>
+                            <button type="button" class="btn btn-primary">Primary</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </ul>
+
+        <!-- TEXTO PRINCIPAL -->
+        <div class="principal d-flex justify-content-center">
+
+            <div class="">
+                <div class="text_animation">
+
+                    <h1 class="mb-3 d-flex justify-content-center">CompumundoHiperMegaRed<h1>
+                            <h4 class="mb-3">Noticias y ofertas sobre productos tecnologicos con analisis y videos</h4>
+                            <a class="btn d-flex justify-content-center btn-outline-danger btn-lg" href="#!"
+                                role="button" style="width: 300px; margin: auto;">
+                                MAS INFORMACION</a>
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="social d-flex">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+
+                <ul>
+                    <!-- Facebook -->
+                    <li><a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998;" href="#!"
+                            role="button"><i class="fab fa-facebook-f"></i></a></li>
+
+                    <!-- Twitter -->
+                    <li><a class="btn btn-primary btn-floating m-1" style="background-color: #55acee;" href="#!"
+                            role="button"><i class="fab fa-twitter"></i></a></li>
+
+                    <!-- Google -->
+                    <li><a class="btn btn-primary btn-floating m-1" style="background-color: #dd4b39;" href="#!"
+                            role="button"><i class="fab fa-google"></i></a></li>
+
+                    <!-- Instagram -->
+                    <li><a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac;" href="#!"
+                            role="button"><i class="fab fa-instagram"></i></a></li>
+                    <!-- Whatsapp -->
+                    <li><a class="btn btn-primary btn-floating m-1" style="background-color: #54be5d;" href="#!"
+                            role="button"><i class="fab fa-whatsapp"></i>
+                            </i></a></li>
+                </ul>
+            </section>
+            <!-- Section: Social media -->
+        </div>
+
+
+
+
+
+
+
+    </header>
+
+
+    <!-- Articulo con images-->
+    <article class="articulo_principal content d-flex justify-content-center flex-wrap">
+        <div class="caja" style="background-image: url(./imagenes/Huawei-Watch-3-scaled.jpg);">
+            <div class="content hola d-flex justify-content-center p-2">
+                <p class="titulo"><strong>Nuevo Huawei Watch 3: el primer reloj con HarmonyOS estrena corona digital y
+                        quiere competir con el Apple Watch</strong></p>
+            </div>
+        </div>
+        <div class="caja" style="background-image: url(./imagenes/celular.jpg);">
+            <div class="content hola d-flex justify-content-center p-2">
+                <p class="titulo"><strong>Los Iphone 13 Tendrán un sensor lidar para hacer mejores fotografías
+                        nocturnas</strong></p>
+            </div>
+        </div>
+        <div class="caja" style="background-image: url(./imagenes/Samsung-Galaxy-S21-Ultra.webp);">
+            <div class="content hola d-flex justify-content-center p-2">
+                <p class="titulo"><strong>Samsung no arriesgará y el Galaxy S22 no montaría cámaras bajo la pantalla,
+                        según medios surcoreanos</strong></p>
+            </div>
+        </div>
+    </article>
+
+
+
+    <!-- Seccion-->
+
+    <section class="seccion_cuerpo container">
+
+        <div class="interno row">
+
+            <!-- Seccion izquierda-->
+
+            <div class="smartphone col-3">
+                <h3>Smartphone ></h3>
+
+                <div class="oneee">
+                    <p class="eña"><strong> Xiaomi Redmi Note 10 con 5G baja de precio en Amazon y se acerca ya a los
+                            200 euros</strong></p>
+
+                </div>
+                <div class="p50">
+                    <p class="eña"><strong> Huawei revela el diseño de su próximo 'smartphone' insignia P50 y presenta
+                            otras novedades</strong></p>
+
+                </div>
+
+                <ul class="lista list-group list-group-flush ">
+                    <li class="list-group-item">. No compres un smartphone sin saber esto antes.</li>
+                    <li class="list-group-item">. Saca las mejores fotografias con estos smartphone</li>
+                    <li class="list-group-item">. Encontra las mejores resoluciones de pantalla en estos smartphone</li>
+                </ul>
+
+
+                <h3>Imagen ></h3>
+
+                <div class="tv">
+                    <p class="eña"><strong> Pon en tu salón a Google: cómo elegir tele con Android TV</strong></p>
+
+                </div>
+
+                <ul class="lista list-group list-group-flush ">
+                    <li class="list-group-item">. ¿Quieres ver Disney+ o Netflix? Estos TV Box serán tu mejor aliado
+                    </li>
+                    <li class="list-group-item">. Qué debes tener en cuenta al escoger una Smart TV Gaming</li>
+                    <li class="list-group-item">. Móntate el mejor cine en casa con estos proyectores 4K</li>
+                    <li class="list-group-item">. ¿Buscas una Smart TV grande? Las mejores con 65 o más pulgadas</li>
+                </ul>
+
+
+
+
+
+                <h3>Audio></h3>
+
+                <div class="auris">
+                    <p class="eña"><strong> Estos son los auriculares bluetooth más vendidos del mundo después de los
+                            AirPods de Apple</strong></p>
+
+                </div>
+                <ul class="lista list-group list-group-flush">
+                    <li class="list-group-item">. Ratones inalámbricos para trabajar: elige el que necesitas</li>
+                    <li class="list-group-item">. Los mejores adaptadores Ethernet USB 3.0, cómo elegir el que te
+                        conviene</li>
+                    <li class="list-group-item">.Teclados para los iPad Pro: cómo elegirlos y los mejores modelos</li>
+                    <li class="list-group-item">. Características que debe tener un tablet para ver series de Netflix
+                    </li>
+                </ul>
+
+
+                <h3>Accesorios></h3>
+
+                <div class="accesorios">
+                    <p class="eña"><strong> Smartwatches ligeros que puedes llevarlos siempre puestos</strong></p>
+
+                </div>
+                <ul class="lista list-group list-group-flush">
+                    <li class="list-group-item">. Auriculares inalámbricos que son los mayores rivales de los AirPods
+                    </li>
+                    <li class="list-group-item">. Mejores Webcam Full HD para hacer videoconferencias</li>
+                    <li class="list-group-item">. Barras de sonido Dolby Atmos, elije la mejor para utilizar en casa
+                    </li>
+                </ul>
+
+
+
+
+
+            </div>
+
+
+
+            <div class="destacados col-6">
+
+                <!-- Seccion Medio-->
+                <h3>Ultimas noticias ></h3>
+
+                <div class="pc">
+                </div>
+
+                <p class="notas"><strong> E3 2021: El PC Gaming Show detalla fecha, hora y contenido</strong></p>
+                El evento, que formará parte del E3 2021, ha dado buena cuenta de lo que podemos esperar de él en lo que
+                a novedades se refiere.
+                <p> Noventa minutos de contenido relacionado con el PC. Esto es lo que el PC Gaming Show nos tiene
+                    reservado durante el E3 2021. PC Gamer, el medio de comunicación que organiza la feria, ha
+                    confirmado la fecha y la hora de la conferencia. Será el próximo domingo 13 junio a las 23:30 CEST.
+                    A continuación os mostramos el horario en función de cada uno de los países.</p>
+                <span class="badge rounded-pill bg-danger">Ver más</span>
+
+
+                <div class="xbox">
+                </div>
+                <p class="notas"><strong> Xbox Series X|S tendrán soporte AMD FidelityFX Super Resolution, ¿qué
+                        es?</strong></p>
+                <p> La consola de Microsoft confirma soporte para esta tecnología, que viene a ser la respuesta de AMD
+                    al DLSS de su rival Nvidia. Microsoft lo confirma.
+                    Microsoft ha confirmado a IGN que Xbox Series X y Xbox Series S serán compatibles con la nueva
+                    técnica de supermuestreo de imágenes FidelityFX Super Resolution de AMD. Con el fin de mejorar el
+                    rendimiento y fidelidad visual de los videojuegos mediante un software específico, AMD y Microsoft
+                    trabajarán juntas para que una gama de títulos de Xbox Series puedan sacarle partido. Se confirma,
+                    así pues, que el hardware de Xbox Series viene preparado para soportarlo. Resolución y tasa de
+                    imágenes por segundo, los elementos que más se verán afectados.</p>
+                <span class="badge rounded-pill bg-danger">Ver más</span>
+
+
+
+                <div class="camara">
+                </div>
+                <p class="notas"><strong> ¿Tiene sentido comprar una cámara réflex en 2021?</strong></p>
+                <p> Los fabricantes están dándole cada vez más importancia a modelos de objetivos intercambiables sin
+                    espejo, lo que provoca dudas entre los que buscan superar las fronteras de la fotografía móvil</p>
+                <span class="badge rounded-pill bg-danger">Ver más</span>
+
+
+                <div class="ps5">
+                </div>
+                <p class="notas"><strong> Sony libera una nueva versión del firmware de PlayStation 5 que mejora el
+                        rendimiento y arregla varios bugs, entre ellos, el indicador de batería del mando.</strong></p>
+                <p> Sony ha liberado hoy 9 de junio de 2021 una nueva actualización del firmware de PS5; se trata de la
+                    versión 21.01-03.20.00 que, con un tamaño de 902 MB, ya está disponible como descarga para todos los
+                    usuarios de la consola de nueva generacion.</p>
+                <span class="badge rounded-pill bg-danger">Ver más</span>
+
+
+
+            </div>
+
+
+            <aside class="recomendados col-3">
+
+                <!-- Seccion Derecha-->
+
+                <h3>Tops ></h3>
+
+                <div class="cartas card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="./imagenes/tablet.jpg" alt="">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title"><strong>Imagen</strong></h5>
+                                <p class="card-text">Estas son las mejores tablets para jugar a Fortnite.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="cartas card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="./imagenes/reproductores.jpg" alt="">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title"><strong>Imagen</strong></h5>
+                                <p class="card-text">Mejores reproductores Blu-ray 4K para exprimir tu Smart TV.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="cartas card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="./imagenes/conexion.jpg" alt="">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title"><strong>Imagen</strong></h5>
+                                <p class="card-text">Los mejores cables HDMI para usar con tu consola.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <h3>Analisis ></h3>
+
+                <div class="cartas card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="./imagenes/airdots.jpg" alt="">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title"><strong>Audio</strong></h5>
+                                <p class="card-text">Xiaomi Redmi AirDots, los mejores auriculares inalámbricos baratos
+                                    del mercado.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cartas card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="./imagenes/iPhone-11.jpg" alt="">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title"><strong>Movil</strong></h5>
+                                <p class="card-text">iPhone 11 Pro Max, así es el titán de Apple.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cartas card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="./imagenes/GoPro-HERO.jpg" alt="">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title"><strong>Camaras</strong></h5>
+                                <p class="card-text">GoPro HERO8 Black, ¿la mejor cámara deportiva del mercado?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <h3>Promociones ></h3>
+
+
+                <div class="cartas card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="./imagenes/promo.jpg" alt="">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title"><strong>TV</strong></h5>
+                                <p class="card-text">Precio de risa para comprar ahora un Apple TV 4K en MediaMarkt</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="cartas card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="./imagenes/promo1.jpg" alt="">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title"><strong>SmartWatches</strong></h5>
+                                <p class="card-text">¡Oportunidad! Completo smartwatch Samsung casi a mitad de precio
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cartas card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="./imagenes/promo2.jpg" alt="">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title"><strong>Smartbands</strong></h5>
+                                <p class="card-text">Smartbands con GPS a precio de risa para controlar tu actividad</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cartas card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="./imagenes/promo3.jpg" alt="">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title"><strong>Audio</strong></h5>
+                                <p class="card-text">Mejora el sonido de tu tele: Barra de sonido Sony a precio de ganga
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </aside>
+        </div>
+    </section>
+
+
+
+    <!-- Button trigger modal -->
+
+
+    <!-- MODAL DEL LOGIN -->
+
+    <div class="modal_fondo modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal_login modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">LOGIN</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="input-group flex-nowrap p-2">
+                        <span class="input-group-text" id="addon-wrapping">Usuario</span>
+                        <input type="text" class="form-control" placeholder="Username" aria-label="Username"
+                            aria-describedby="addon-wrapping">
+                    </div>
+                    <div class="input-group flex-nowrap p-2">
+                        <span class="input-group-text" id="addon-wrapping">Contraseña</span>
+                        <input type="text" class="form-control" placeholder="Password" aria-label="Username"
+                            aria-describedby="addon-wrapping">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs="modal">Ingresar</button>
+
+                    <!-- Registro Offcanvas desde el Login Modal -->
+
+                    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">Registro</button>
+
+                    <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom"
+                        aria-labelledby="offcanvasBottomLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasBottomLabel">Registro</h5>
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body small">
+
+                            <!-- Formulario de Registro Offcanvas desde el Login Modal -->
+
+                            <div class="texto_formulario offcanvas-body">
+                                <div class="offcanvas-header">
+                                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                        aria-label="Close"></button>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-2">
+                                        <input type="text" class="form-control" placeholder="First name"
+                                            aria-label="First name">
+                                    </div>
+                                    <div class="col-2">
+                                        <input type="text" class="form-control" placeholder="Last name"
+                                            aria-label="Last name">
+                                    </div>
+                                </div>
+
+                                <form class="row g-3">
+                                    <div class="col-md-2">
+                                        <label for="inputEmail4" class="form-label">Email</label>
+                                        <input type="email" class="form-control" id="inputEmail4">
+                                    </div>
+                                    <div class="col-md-2">
+                                        <label for="inputPassword4" class="form-label">Password</label>
+                                        <input type="password" class="form-control" id="inputPassword4">
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                                            <label class="form-check-label" for="gridCheck">
+                                                Check me out
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <button type="submit" class="btn btn-primary">Sign in</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content ">
+                    <div class="container p-4 social">
+                        <!-- Section: Social media -->
+                        <section class="mb-4">
+                            <!-- Facebook -->
+                            <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998;" href="#!"
+                                role="button"><i class="fab fa-facebook-f"></i></a>
+
+                            <!-- Twitter -->
+                            <a class="btn btn-primary btn-floating m-1" style="background-color: #55acee;" href="#!"
+                                role="button"><i class="fab fa-twitter"></i></a>
+
+                            <!-- Google -->
+                            <a class="btn btn-primary btn-floating m-1" style="background-color: #dd4b39;" href="#!"
+                                role="button"><i class="fab fa-google"></i></a>
+
+                            <!-- Instagram -->
+                            <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac;" href="#!"
+                                role="button"><i class="fab fa-instagram"></i></a>
+
+                            <!-- Linkedin -->
+                            <a class="btn btn-primary btn-floating m-1" style="background-color: #0082ca;" href="#!"
+                                role="button"><i class="fab fa-linkedin-in"></i></a>
+                            <!-- Github -->
+                            <a class="btn btn-primary btn-floating m-1" style="background-color: #333333;" href="#!"
+                                role="button"><i class="fab fa-github"></i></a>
+                        </section>
+                        <!-- Section: Social media -->
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Footer -->
+    <footer class="text-center bg-dark text-white">
+        <!-- Grid container -->
+        <div class="container p-4">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+                <!-- Facebook -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-facebook-f"></i></a>
+
+                <!-- Twitter -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-twitter"></i></a>
+
+                <!-- Google -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-google"></i></a>
+
+                <!-- Instagram -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-instagram"></i></a>
+
+                <!-- Linkedin -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-linkedin-in"></i></a>
+
+                <!-- Github -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-github"></i></a>
+            </section>
+            <!-- Section: Social media -->
+
+            <!-- Section: Form -->
+            <section class="">
+                <form action="">
+                    <!--Grid row-->
+                    <div class="row d-flex justify-content-center">
+                        <!--Grid column-->
+                        <div class="col-auto">
+                            <p class="pt-2">
+                                <strong>Sign up for our newsletter</strong>
+                            </p>
+                        </div>
+                        <!--Grid column-->
+
+                        <!--Grid column-->
+                        <div class="col-md-5 col-12">
+                            <!-- Email input -->
+                            <div class="form-outline form-white mb-4">
+                                <input type="email" id="form5Example2" class="form-control" />
+                                <label class="form-label" for="form5Example2">Email address</label>
+                            </div>
+                        </div>
+                        <!--Grid column-->
+
+                        <!--Grid column-->
+                        <div class="col-auto">
+                            <!-- Submit button -->
+                            <button type="submit" class="btn btn-outline-light mb-4">
+                                Subscribe
+                            </button>
+                        </div>
+                        <!--Grid column-->
+                    </div>
+                    <!--Grid row-->
+                </form>
+            </section>
+            <!-- Section: Form -->
+
+            <!-- Section: Text -->
+            <section class="mb-4">
+                <p>
+
+                </p>
+            </section>
+            <!-- Section: Text -->
+
+            <!-- Section: Links -->
+            <section class="">
+                <!--Grid row-->
+                <div class="row">
+                    <!--Grid column-->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase">Links</h5>
+
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <a href="#!" class="text-white"></a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white"></a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white"></a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white"></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase">Links</h5>
+
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <a href="#!" class="text-white"></a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white"></a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white"></a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white"></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase">Links</h5>
+
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <a href="#!" class="text-white"></a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white"></a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white"></a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white"></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase">Links</h5>
+
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <a href="#!" class="text-white"></a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white"></a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white"></a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white"></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+                </div>
+                <!--Grid row-->
+            </section>
+            <!-- Section: Links -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2020 Copyright:
+            <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
